@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "enders_util",
+  "version": "${version}",
+
+  "name": "Ender's Utilities",
+  "description": "A bunch of small features to make game best! \n:)",
+  "authors": [
+    "Ender"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "issues": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/enders_util/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.theendercore.enders_util.EndersUtil"
+    ]
+  },
+  "mixins": [
+    "enders_util.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
