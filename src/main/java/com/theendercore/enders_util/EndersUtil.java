@@ -15,6 +15,5 @@ public class EndersUtil implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Crawling out of the void!");
-        LOGGER.info("help :(");
     }
 }
