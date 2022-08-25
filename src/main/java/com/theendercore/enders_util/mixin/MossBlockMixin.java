@@ -4,7 +4,6 @@ import com.theendercore.enders_util.util.Tags;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.MossBlock;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
 import org.spongepowered.asm.mixin.Mixin;
